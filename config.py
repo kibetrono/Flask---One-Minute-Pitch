@@ -3,7 +3,8 @@ import os
 
 class Config:
     '''General configuration parent class'''
-    SECRET_KEY = os.environ.get("SECRET_KEY")
+    SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://kibet:KibetFlask@localhost/flask_pitch'
+    SECRET_KEY ='FlSkPItchA@*ppL&iCA^$tio***n'
     #  email configurations
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587

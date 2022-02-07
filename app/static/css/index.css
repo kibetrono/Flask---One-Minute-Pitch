@@ -1,0 +1,92 @@
+body {
+  background-color: #102e48;
+  color: white;
+}
+#show {
+  height: 200px !important;
+  overflow: auto;
+}
+#top {
+  color: white !important;
+  font-size: 25px;
+  margin-top: 10px !important;
+}
+nav {
+  border-bottom: 1px solid peru !important;
+  height: 70px !important;
+}
+ul li a {
+  margin-top: 10px !important;
+  color: white !important;
+  font-size: 25px;
+}
+.pitch {
+  float: left;
+  width: 25% !important;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.display {
+  padding: 20px;
+  min-height: 33vh !important;
+  border: 1px solid peru;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+form {
+  padding: 20px;
+}
+.register {
+  background-color: #091623 !important;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 45%;
+}
+
+.register p {
+  padding: 20px;
+}
+
+.login {
+  background-color: #091623 !important;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 45%;
+}
+.login p {
+  padding: 20px;
+}
+.profile {
+  color: whitesmoke;
+  font-size: 25px;
+}
+.pitch {
+  background-color: #091623 !important;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+::placeholder {
+  color: black !important;
+  font-size: 20px;
+}
+.bio {
+  background-color: #091623 !important;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  width: 40%;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border: unset;
+}
+.comments {
+  font-size: 25px;
+}

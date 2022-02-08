@@ -40,7 +40,7 @@ Flask Pitch application allows users to submit their one minute pitches and othe
 
 ## Live Link
 
-* [Click Here]( https://flask-news-application.herokuapp.com/) to view Flask Pitch Application
+* [Click Here]( https://pitchflaskapplication.herokuapp.com/) to view Flask Pitch Application
 
 ## Some Screenshots
 

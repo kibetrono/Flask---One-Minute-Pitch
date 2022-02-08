@@ -21,9 +21,9 @@ class ProdConfig(Config):
     """
     # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kibet:KibetFlask@localhost/flask'
 
-    uri = os.getenv("DATABASE_URL")  # or other relevant config var
-    if uri and uri.startswith("postgres://"):
-        uri = uri.replace("postgres://", "postgresql://", 1)
+    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL")  # or other relevant config var
+    if SQLALCHEMY_DATABASE_URI and SQLALCHEMY_DATABASE_URI.startswith("postgres://"):
+        SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI.replace("postgres://", "postgresql://", 1)
     # rest of connection code using the connection string `uri`
 
 

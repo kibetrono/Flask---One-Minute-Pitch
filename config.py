@@ -3,7 +3,6 @@ import os
 
 class Config:
     '''General configuration parent class'''
-    SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://kibet:KibetFlask@localhost/flask'
     SECRET_KEY ='FlSkPItchA@*ppL&iCA^$tio***n'
     #  email configurations
     MAIL_SERVER = 'smtp.googlemail.com'
@@ -19,9 +18,8 @@ class ProdConfig(Config):
     Args:
     Config: The parent configuration class with General configuration settings
     """
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kibet:KibetFlask@localhost/flask'
 
-    # SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
 
 
@@ -35,7 +33,6 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     """
-    SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://kibet:KibetFlask@localhost/flask'
 
     DEBUG = True
 
